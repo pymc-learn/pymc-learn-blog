@@ -1,6 +1,8 @@
 <footer class="site-footer">
   
-  {{ template "_internal/disqus.html" . }}
+  {{ if .IsPage }}
+    {{ template "_internal/disqus.html" . }}
+  {{ end }}
   
   <div class="container">
     <p class="powered-by">

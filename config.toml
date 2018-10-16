@@ -3,7 +3,7 @@ relativeURLs = true
 baseURL = "/"
 languageCode = "en-us"
 title = "pymc-learn Blog"
-copyright = "&copy; 2018-2019 pymc-learn Developers Team"
+copyright = "&copy; 2018 -- 2019 pymc-learn Developers Team | [Github](https://github.com/pymc-learn) | [Twitter](https://twitter.com/pymc_learn)"
 enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
 

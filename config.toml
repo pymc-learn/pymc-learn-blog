@@ -112,3 +112,17 @@ defaultContentLanguageInSubdir = false
   category = "categories"
   publication_type = "publication_types"
   
+[params]
+    highlightjsVersion = "9.12.0"
+    highlightjsCDN = "//cdnjs.cloudflare.com/ajax/libs"
+    highlightjsLang = ["r", "yaml"]
+    highlightjsTheme = "github"
+
+    MathJaxCDN = "//cdnjs.cloudflare.com/ajax/libs"
+    MathJaxVersion = "2.7.5"
+
+[params.logo]
+    url = "https://raw.githubusercontent.com/pymc-learn/pymc-learn/master/docs/logos/pymc_learn_logo.png"
+    width = 50
+    height = 50
+    alt = "Logo"

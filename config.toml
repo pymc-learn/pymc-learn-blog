@@ -2,6 +2,7 @@ theme = "hugo-theme-slim"
 baseURL = "http://blog.pymc-learn.org/"
 languageCode = "en-us"
 title = "pymc-learn Blog"
+copyright = "&copy; 2018-2019 pymc-learn Developers Team"
 enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
 
@@ -39,8 +40,8 @@ defaultContentLanguageInSubdir = false
 
   # Link custom CSS and JS assets
   #   (relative to /static/css and /static/js respectively)
-  custom_css = ["/themes/hugo-theme-slim/static/css/slim.css"]
-  custom_js  = ["/themes/hugo-theme-slim/static/js/slim.js"]
+  custom_css = ["slim.css"]
+  custom_js  = ["slim.js"]
 
   # Publication types.
   #   Used to categorize publications.

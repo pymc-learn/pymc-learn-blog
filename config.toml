@@ -17,8 +17,9 @@ defaultContentLanguageInSubdir = false
 
 [blackfriday]
   hrefTargetBlank = true
-  
-# Date format (refer to Go's date format: http://flippinggodateformat.com )
+
+[params]  
+  # Date format (refer to Go's date format: http://flippinggodateformat.com )
   #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
   date_format = "Mon, Jan 2, 2006"
 
@@ -38,8 +39,8 @@ defaultContentLanguageInSubdir = false
 
   # Link custom CSS and JS assets
   #   (relative to /static/css and /static/js respectively)
-  custom_css = ["themes/hugo-theme-slim/static/css/slim.css"]
-  custom_js  = ["themes/hugo-theme-slim/static/js/slim.js]
+  custom_css = ["/themes/hugo-theme-slim/static/css/slim.css"]
+  custom_js  = ["/themes/hugo-theme-slim/static/js/slim.js"]
 
   # Publication types.
   #   Used to categorize publications.
@@ -58,7 +59,7 @@ defaultContentLanguageInSubdir = false
   ]
 
 
-# Social/Academic Networking
+  # Social/Academic Networking
   #
   # Icon pack "fa" includes the following social network icons:
   #
@@ -90,7 +91,7 @@ defaultContentLanguageInSubdir = false
     icon = "github"
     icon_pack = "fa"
     link = "//github.com/pymc-learn"
-    
+
 # Navigation Links
 #   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
 #     desired widget in your `content/home/` folder.
@@ -112,17 +113,4 @@ defaultContentLanguageInSubdir = false
   category = "categories"
   publication_type = "publication_types"
   
-[params]
-    highlightjsVersion = "9.12.0"
-    highlightjsCDN = "//cdnjs.cloudflare.com/ajax/libs"
-    highlightjsLang = ["r", "yaml"]
-    highlightjsTheme = "github"
 
-    MathJaxCDN = "//cdnjs.cloudflare.com/ajax/libs"
-    MathJaxVersion = "2.7.5"
-
-[params.logo]
-    url = "https://raw.githubusercontent.com/pymc-learn/pymc-learn/master/docs/logos/pymc_learn_logo.png"
-    width = 50
-    height = 50
-    alt = "Logo"

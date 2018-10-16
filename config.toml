@@ -8,7 +8,7 @@ enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
 
 # Enable comments by entering your Disqus shortname
-disqusShortname = "emaasit"
+disqusShortname = "pymc-learn-blog"
 
 # Default language to use (if you setup multilingual support)
 defaultContentLanguage = "en"

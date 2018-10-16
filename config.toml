@@ -1,4 +1,5 @@
 theme = "hugo-theme-slim"
+relativeURLs = true
 baseURL = "http://blog.pymc-learn.org/"
 languageCode = "en-us"
 title = "pymc-learn Blog"

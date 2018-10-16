@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<title> pymc-learn: Practical Probabilistic Machine Learning in Python &middot; pymc-learn Blog </title>
+
+
+<link rel="stylesheet" href="/css/slim.css">
+<link rel="stylesheet" href="/css/highlight.min.css">
+<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Source+Code+Pro' rel='stylesheet' type='text/css'>
+
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+<link rel="shortcut icon" href="/favicon.ico">
+
+
+<link href="" rel="alternate" type="application/rss+xml" title="pymc-learn Blog" />
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="header">
+  <h1 class="site-title"><a href="/">pymc-learn Blog</a></h1>
+  <p class="site-tagline"></p>
+  <div class="nav">
+    <a class="nav-btn" href="#">
+      <span class="ci ci-burger"></span>
+    </a>
+    <ul class="nav-list">
+      
+      <li><a href="/">Home</a></li>
+      
+      <li><a href="http://pymc-learn.org">pymc-learn</a></li>
+       
+	  <li class="spacer">&ac;</li>
+  
+    </ul>
+  </div>
+</div>
+    <div class="content">
+      <div class="posts">
+        <div class="post">
+          <h2 class="post-title"><a href="/post/2018/10/15/pymc-learn-practical-probabilistic-machine-learning-in-python/">pymc-learn: Practical Probabilistic Machine Learning in Python</a></h2>
+          <span class="post-date">Oct 15, 2018 </span>
+          <div class="post-content">
+            
+
+<p>PyMC3 is a Python package for probabilistic machine learning that enables users
+to build bespoke models for their specific problems using a probabilistic
+modeling framework. However, PyMC3 lacks the steps between creating a model and
+reusing it with new data in production. The missing steps include: scoring a
+model, saving a model for later use, and loading the model in production
+systems. In contrast, <em>scikit-learn</em> which has become the standard
+library for machine learning provides a simple API that makes it very easy for
+users to train, score, save and load models in production. However,
+<em>scikit-learn</em> may not have the model for a user&rsquo;s specific problem.
+These limitations have led to the development of the open
+source <em>pymc3-models</em> library which provides a template to build bespoke
+PyMC3 models on top of the <em>scikit-learn</em> API and reuse them in
+production. This enables users to easily and quickly train, score, save and
+load their bespoke models just like in <em>scikit-learn</em>.</p>
+
+<p>The <code>pymc-learn</code> project leverages the template in <em>pymc3-models</em> to
+develop custom Bayesian models. This provides users with probabilistic models
+in a simple workflow that mimics the scikit-learn API.</p>
+
+<h4 id="references">References</h4>
+
+<ol>
+<li><p>Ghahramani, Z. (2015). Probabilistic machine learning and artificial intelligence. Nature, 521(7553), 452.</p></li>
+
+<li><p>Bishop, C. M. (2013). Model-based machine learning. Phil. Trans. R. Soc. A, 371(1984), 20120222.</p></li>
+
+<li><p>Murphy, K. P. (2012). Machine learning: a probabilistic perspective. MIT Press.</p></li>
+
+<li><p>Barber, D. (2012). Bayesian reasoning and machine learning. Cambridge University Press.</p></li>
+
+<li><p>Salvatier, J., Wiecki, T. V., &amp; Fonnesbeck, C. (2016). Probabilistic programming in Python using PyMC3. PeerJ Computer Science, 2, e55.</p></li>
+</ol>
+
+          </div>
+        </div>
+        <div class="pagination"> 
+        </div>
+      </div>
+    </div>
+    
+    <div class="footer">
+  
+  <p>Powered by <a href="http://gohugo.io">Hugo</a>. This theme—Slim—is open sourced on <a href="https://github.com/zhe/hugo-theme-slim">Github</a>.</p>
+  
+</div>
+
+  </div>
+  <script src="/js/slim.js"></script>
+  <script src="/js/highlight.min.js"></script>
+  <script>
+    hljs.initHighlightingOnLoad();
+  </script>
+  
+</body>
+
+</html>

@@ -1,25 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site</title>
-    <link>http://example.org/</link>
-    <description>Recent content on My New Hugo Site</description>
+    <title>pymc-learn Blog</title>
+    <link>/</link>
+    <description>Recent content on pymc-learn Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 23 Jul 2015 21:13:14 -0500</lastBuildDate>
+    <lastBuildDate>Mon, 15 Oct 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Hello R Markdown</title>
-      <link>http://example.org/post/2015-07-23-r-rmarkdown/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
+      <title>pymc-learn: Practical Probabilistic Machine Learning in Python</title>
+      <link>/post/2018/10/15/pymc-learn-practical-probabilistic-machine-learning-in-python/</link>
+      <pubDate>Mon, 15 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/post/2015-07-23-r-rmarkdown/</guid>
-      <description>R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
-You can embed an R code chunk like this:
-summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu.</description>
+      <guid>/post/2018/10/15/pymc-learn-practical-probabilistic-machine-learning-in-python/</guid>
+      <description>PyMC3 is a Python package for probabilistic machine learning that enables users to build bespoke models for their specific problems using a probabilistic modeling framework. However, PyMC3 lacks the steps between creating a model and reusing it with new data in production. The missing steps include: scoring a model, saving a model for later use, and loading the model in production systems. In contrast, scikit-learn which has become the standard library for machine learning provides a simple API that makes it very easy for users to train, score, save and load models in production.</description>
     </item>
     
   </channel>

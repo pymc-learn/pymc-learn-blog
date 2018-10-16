@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bayesian on pymc-learn Blog</title>
+    <link>/tags/bayesian/</link>
+    <description>Recent content in Bayesian on pymc-learn Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 15 Oct 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/bayesian/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>pymc-learn: Practical Probabilistic Machine Learning in Python</title>
+      <link>/post/2018/10/15/pymc-learn-practical-probabilistic-machine-learning-in-python/</link>
+      <pubDate>Mon, 15 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2018/10/15/pymc-learn-practical-probabilistic-machine-learning-in-python/</guid>
+      <description>PyMC3 is a Python package for probabilistic machine learning that enables users to build bespoke models for their specific problems using a probabilistic modeling framework. However, PyMC3 lacks the steps between creating a model and reusing it with new data in production. The missing steps include: scoring a model, saving a model for later use, and loading the model in production systems. In contrast, scikit-learn which has become the standard library for machine learning provides a simple API that makes it very easy for users to train, score, save and load models in production.</description>
+    </item>
+    
+  </channel>
+</rss>
